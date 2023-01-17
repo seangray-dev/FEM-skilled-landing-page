@@ -639,6 +639,10 @@ html {
   display: none;
 }
 
+.min-h-screen {
+  min-height: 100vh;
+}
+
 .flex-col {
   flex-direction: column;
 }
