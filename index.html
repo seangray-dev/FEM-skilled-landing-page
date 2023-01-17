@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Style -->
+    <link href="./dist/output.css" rel="stylesheet" />
+    <title>Frontend Mentor | Skilled e-learning landing page</title>
+  </head>
+
+  <body
+    class="md:bg-[url('../assets/image-hero-tablet.png')] md:bg-no-repeat md:bg-[right_-19rem_top_-5rem] lg:bg-[url('../assets/image-hero-desktop.png')] lg:bg-[right_-19rem_top_-10rem]"
+  >
+    <header class="mt-4 mb-9 md:mb-24 lg:mb-44">
+      <nav class="container flex justify-between items-center">
+        <a href="#">
+          <img
+            class="object-contain"
+            src="./assets/logo-dark.svg"
+            alt="skilled-logo"
+          />
+        </a>
+        <a class="btn bg-navyBlue hover:bg-grey focus:bg-grey" href="#"
+          >Get Started</a
+        >
+      </nav>
+    </header>
+    <main class="">
+      <section
+        class="md:pb-48 relative overflow-hidden container flex flex-col md:flex-row"
+      >
+        <!-- Hero Text -->
+        <div class="md:max-w-[400px] lg:max-w-[457px] mb-11">
+          <h1 class="text-l lg:text-xl text-navyBlue mb-6">
+            Maximize skill, minimize budget
+          </h1>
+          <p class="text-grey text-body-s mb-6 md:mb-10">
+            Our modern courses across a range of in-demand skills will give you
+            the knowledge you need to live the life you want.
+          </p>
+          <a
+            class="btn bg-gradientOrangePink hover:bg-gradientOrangePinkHover focus:bg-gradientOrangePinkHover"
+            href="#"
+            >Get Started</a
+          >
+        </div>
+        <!-- Hero Images -->
+        <div class="">
+          <!--Hero Image Mobile -->
+          <img
+            class="mx-auto md:hidden"
+            src="./assets/image-hero-mobile.png"
+            alt=""
+          />
+          <!--Hero Image Tablet -->
+          <!-- <img
+            class="hidden md:block md:absolute md:inset-0 md:left-96 md:-top-52 lg:hidden"
+            src="./assets/image-hero-desktop.png"
+            alt=""
+          />
+          <!--Hero Image Desktop -->
+          <!-- <img
+            class="hidden lg:inline-block"
+            src="./assets/image-hero-desktop.png"
+            alt=""
+          /> -->
+        </div>
+      </section>
+      <section class="bg-gradientBg pb-20">
+        <div
+          class="container flex flex-col gap-12 md:grid md:grid-cols-2 md:gap-x-2.5 lg:grid-cols-3 lg:gap-x-8"
+        >
+          <div
+            class="card-accent md:card-accent bg-gradientOrangePink text-white"
+          >
+            <h4 class="text-[1.5rem] lg:text-[2rem] font-bold">
+              Check out our most popular courses!
+            </h4>
+          </div>
+
+          <div class="card relative flex flex-col justify-between">
+            <img
+              class="absolute inset-0 -top-6 left-6"
+              src="./assets/icon-animation.svg"
+              alt="#"
+              aria-label="hidden"
+            />
+            <h3 class="text-s mb-4">Animation</h3>
+            <div class="text-body-m text-grey mb-6">
+              Learn the latest animation techniques to create stunning motion
+              design and captivate your audience.
+            </div>
+            <a
+              class="text-falmingoPink hover:text-lightPink transition-colors text-lg font-bold"
+              href="#"
+              >Get Started</a
+            >
+          </div>
+
+          <div class="card relative flex flex-col justify-between">
+            <img
+              class="absolute inset-0 -top-6 left-6"
+              src="./assets/icon-design.svg"
+              alt="#"
+              aria-label="hidden"
+            />
+            <h3 class="text-s mb-4">Design</h3>
+            <div class="text-body-m text-grey mb-6">
+              Create beautiful, usable interfaces to help shape the future of
+              how the web looks.
+            </div>
+            <a
+              class="text-falmingoPink hover:text-lightPink transition-colors text-lg font-bold"
+              href="#"
+              >Get Started</a
+            >
+          </div>
+          <div class="card relative flex flex-col justify-between">
+            <img
+              class="absolute inset-0 -top-6 left-6"
+              src="./assets/icon-photography.svg"
+              alt="#"
+              aria-label="hidden"
+            />
+            <h3 class="text-s mb-4">Photography</h3>
+            <div class="text-body-m text-grey mb-6">
+              Explore critical fundamentals like lighting, composition, and
+              focus to capture exceptional photos.
+            </div>
+            <a
+              class="text-falmingoPink hover:text-lightPink transition-colors text-lg font-bold"
+              href="#"
+              >Get Started</a
+            >
+          </div>
+
+          <div class="card relative flex flex-col justify-between">
+            <img
+              class="absolute inset-0 -top-6 left-6"
+              src="./assets/icon-crypto.svg"
+              alt="#"
+              aria-label="hidden"
+            />
+            <h3 class="text-s mb-4">Crypto</h3>
+            <div class="text-body-m text-grey mb-6">
+              All you need to know to get started investing in crypto. Go from
+              beginner to advanced with this 54 hour course.
+            </div>
+            <a
+              class="text-falmingoPink hover:text-lightPink transition-colors text-lg font-bold"
+              href="#"
+              >Get Started</a
+            >
+          </div>
+
+          <div class="card relative flex flex-col justify-between">
+            <img
+              class="absolute inset-0 -top-6 left-6"
+              src="./assets/icon-business.svg"
+              alt="#"
+              aria-label="hidden"
+            />
+            <h3 class="text-s mb-4">Business</h3>
+            <div class="text-body-m text-grey mb-6">
+              A step-by-step playbook to help you start, scale, and sustain your
+              business without outside investment.
+            </div>
+            <a
+              class="text-falmingoPink hover:text-lightPink transition-colors text-lg font-bold"
+              href="#"
+              >Get Started</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="bg-navyBlue py-8">
+      <nav class="container flex justify-between items-center">
+        <a href="#">
+          <img
+            class="object-contain"
+            src="./assets/logo-light.svg"
+            alt="skilled-logo"
+          />
+        </a>
+        <a
+          class="btn bg-gradientBluePink hover:bg-gradientBluePinkHover transition-all focus:bg-grey"
+          href="#"
+          >Get Started</a
+        >
+      </nav>
+    </footer>
+  </body>
+</html>
